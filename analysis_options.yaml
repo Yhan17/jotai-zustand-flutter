@@ -1,0 +1,68 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Dart language rules
+    await_only_futures: true
+    camel_case_types: true
+    constant_identifier_names: true
+    control_flow_in_finally: true
+    empty_constructor_bodies: true
+    library_names: true
+    library_prefixes: true
+    non_constant_identifier_names: true
+    one_member_abstracts: true
+    only_throw_errors: true
+    overridden_fields: true
+    package_api_docs: true
+    package_prefixed_library_names: true
+    prefer_contains: true
+    prefer_equal_for_default_values: true
+    prefer_final_fields: true
+    prefer_is_empty: true
+    prefer_is_not_empty: true
+    sort_constructors_first: true
+    super_goes_last: true
+    type_init_formals: true
+    unnecessary_const: true
+    unnecessary_new: true
+    unnecessary_this: true
+
+    # Flutter specific rules
+    avoid_single_cascade_in_expression_statements: true
+    avoid_redundant_argument_values: true
+    avoid_web_libraries_in_flutter: true
+    flutter_style_todos: true
+    no_logic_in_create_state: true
+
+    # Performance related rules
+    avoid_slow_async_io: true
+    prefer_const_constructors: true
+    prefer_const_constructors_in_immutables: true
+    prefer_const_declarations: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_final_locals: true
+
+    # Rules to avoid errors or unexpected behaviors
+    cancel_subscriptions: true
+    hash_and_equals: true
+    no_duplicate_case_values: true
+    valid_regexps: true
+
+    # Code readability and formatting rules
+    always_declare_return_types: true
+    annotate_overrides: true
+    avoid_annotating_with_dynamic: true
+    avoid_as: true
+    avoid_catches_without_on_clauses: true
+    avoid_init_to_null: true
+    avoid_null_checks_in_equality_operators: true
+    avoid_return_types_on_setters: true
+    curly_braces_in_flow_control_structures: true
+    empty_statements: true
+    prefer_single_quotes: true
+    prefer_spread_collections: true
+    unnecessary_brace_in_string_interps: true
+
+# Adjust the analysis options to fit the needs of your project.
+# It's important to review each rule and ensure it aligns with your team's coding standards.
