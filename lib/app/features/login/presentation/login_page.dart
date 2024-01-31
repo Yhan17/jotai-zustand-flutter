@@ -28,7 +28,7 @@ class LoginPage extends AppPageBuilder {
     // );
     // final doubleCount = useComputed(doubleCountComputed);
 
-    //Example of zustand implementation
+    // Example of zustand implementation
     // final counterStore = useStore(() => LoginStoreState());
 
     return CustomScrollView(
